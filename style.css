@@ -1,0 +1,140 @@
+/*font-family: 'Marhey', cursive; = para as outras fontes. */
+
+body {
+  background: black;
+  color: white;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.logotipo {
+  height: 60px;
+  padding-right: 600px;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu-itens {
+  font-family: 'Marhey', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(59, 58, 56);
+  text-decoration: none;
+  transition: 0.5s all;
+  border: 0.3px solid rgb(131, 124, 115);
+  padding: 6px;
+  background: white;
+  border-radius: 7px;
+  width: 120px;
+  text-align: center;
+}
+
+.menu-itens:hover {
+  font-size: 17px;
+}
+
+.texto-menu-intro {
+  border-top: 1px solid antiquewhite;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Criando a animação do texto de entrada
+.texto-menu-intro {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
+.titulo-menu-intro {
+  font-size: bold;
+  font-family: 'Port Lligat Slab', serif;
+  font-weight: 30%;
+  font-size: 80px;
+}
+.conteudo-texto-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 10px;
+}
+
+.subtitulo-menu-intro {
+  font-family: 'Port Lligat Slab', serif;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 20px;
+}
+
+.botao-menu-intro {
+  width: 280px;
+  height: 30px;
+  background-color: black;
+  color: antiquewhite;
+  border: solid 1px antiquewhite;
+  box-shadow: 4px 5px 4px rgb(0, 0, 0);
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: 'Port Lligat Slab', serif;
+  margin: 90px;
+  transition: 0.5s all;
+}
+
+.botao-menu-intro:hover {
+  width: 285px;
+  height: 32.5px;
+  font-size: 17px;
+  border-color: rgb(87, 102, 87) 1px solid;
+  cursor: pointer;
+}
+
+.botao-menu-intro:active {
+  border: rgb(12, 228, 12);
+}
+
+.foto-intro {
+  height: 600px;
+  padding: 50px;
+  opacity: 80%;
+  transition: all 1s;
+}
+
+.foto-intro:hover {
+  opacity: 100%;
+}
+
+.rodape {
+  border-top: 1px solid antiquewhite;
+  text-align: center;
+}
+
+.rodape-intro {
+  font-size: 15px;
+  text-decoration: double;
+  padding: 10px;
+}
+.rodape-intro::before {
+  content: '© ';
+}
