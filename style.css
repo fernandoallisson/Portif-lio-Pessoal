@@ -138,3 +138,20 @@ body {
 .rodape-intro::before {
   content: '© ';
 }
+
+.fundo-imagem-projeto{
+  height: 240px;
+  padding: 7%;
+  object-position: center;
+  object-position: center;
+  border-image:fill;
+
+}
+
+.titulo-projetos{
+  font-size: bold;
+  font-family: 'Port Lligat Slab', serif;
+  font-weight: 30%;
+  font-size: 80px;
+  text-align: center;
+}
