@@ -29,6 +29,11 @@ body {
   gap: 25px;
 }
 
+
+
+header{
+   font-size: 20px;
+}
 .menu-itens {
   font-family: 'Marhey', cursive;
   font-weight: bold;
