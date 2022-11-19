@@ -5,12 +5,19 @@ body {
   color: white;
 }
 
+.minha-area-corpo{
+  margin: 5px;
+  
+}
+
+
 .cabecalho {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 10px;
+
 }
 .logotipo {
   height: 60px;
@@ -117,7 +124,7 @@ body {
 .foto-intro {
   height: 600px;
   padding: 50px;
-  opacity: 80%;
+  opacity: 90%;
   transition: all 1s;
 }
 
@@ -139,19 +146,131 @@ body {
   content: '© ';
 }
 
-.fundo-imagem-projeto{
-  height: 240px;
-  padding: 7%;
-  object-position: center;
-  object-position: center;
-  border-image:fill;
-
-}
-
 .titulo-projetos{
   font-size: bold;
   font-family: 'Port Lligat Slab', serif;
   font-weight: 30%;
   font-size: 80px;
   text-align: center;
+  margin: 20px;
 }
+
+section{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+.itens-clicaveis-area{
+  margin-top:40px; 
+  padding: 2px;
+
+}
+
+
+
+.fundo-imagem-area{
+  height: 240px;
+  padding:1%;
+  object-position: center;
+  margin: 20px;
+  opacity: 100%;
+  box-shadow: 0px 0px 400px rgb(218, 204, 13);
+  border-radius: 12px;
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0), transparent);
+  mask-image: linear-gradient(black, transparent);
+
+ 
+}
+
+.imagem-sobreposta-area-bio{
+  height: 180px;
+  position: absolute; padding-left: 80px; top: 260px;
+  opacity: 80%;
+  transition: 0.3s all;
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0), transparent);
+  mask-image: linear-gradient(black, transparent);
+ 
+
+}
+
+.imagem-sobreposta-area-form{
+  height: 180px;
+  position: absolute; padding-left: 85px; top: 260px;
+  opacity: 80%;
+  transition: 0.3s all;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+
+}
+.imagem-sobreposta-area-proj{
+  height: 180px;
+  position: absolute; padding-left: 61px; top: 270px;
+  opacity: 80%;
+  transition: 0.3s all;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+
+}
+
+.imagem-sobreposta-area-bio:hover{
+  height: 190px;
+  position: absolute; padding-left: 75px; top: 250px;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+  opacity: 100%;
+
+}
+.imagem-sobreposta-area-form:hover{
+  height: 190px;
+  position: absolute; padding-left: 80px; top: 250px;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);  
+  opacity: 100%;
+ }
+
+ .imagem-sobreposta-area-proj:hover{
+  height: 190px;
+  position: absolute; padding-left: 58px; top: 260px;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+  opacity: 100%;
+ }
+
+ .titulo-minha-area{
+  text-align: center;
+  margin: 10px;
+ 
+ }
+ 
+.titulo-minha-area-bio, .titulo-minha-area-form, .titulo-minha-area-proj{
+  font-family: 'Marhey', cursive;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  transition: 0.5s all;
+  border: 3px solid rgb(212, 212, 187);
+  padding: 10px;
+  background-blend-mode: multiply;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 26px;
+  margin-left: 26px;
+  text-align: center;
+  transition: 0.3s all;
+}
+
+.titulo-minha-area-bio:hover, .titulo-minha-area-form:hover, .titulo-minha-area-proj:hover{
+font-size: 16px;
+}
+
+.minha-area-main{
+  margin-bottom: 5px;
+  border-top: 1px solid rgb(255, 255, 255);
+  
+}
+  
