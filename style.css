@@ -17,6 +17,11 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 10px;
+  border-bottom: solid white 2px;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  background: black;
 
 }
 .logotipo {
@@ -34,23 +39,26 @@ body {
 header{
    font-size: 20px;
 }
+
+
 .menu-itens {
   font-family: 'Marhey', cursive;
   font-weight: bold;
   font-size: 15px;
   color: rgb(59, 58, 56);
   text-decoration: none;
-  transition: 0.5s all;
-  border: 0.3px solid rgb(131, 124, 115);
+  transition: 1ms all;
   padding: 6px;
   background: white;
-  border-radius: 7px;
+  border-radius: 20px;
   width: 120px;
   text-align: center;
+  
 }
 
-.menu-itens:hover {
-  font-size: 17px;
+.menu-itens:active {
+  border: yellow solid 1px;
+  background: rgba(255, 255, 0, 0.534);
 }
 
 .texto-menu-intro {
@@ -129,13 +137,11 @@ header{
 .foto-intro {
   height: 600px;
   padding: 50px;
-  opacity: 90%;
-  transition: all 1s;
+  opacity: 100%;
+  
 }
 
-.foto-intro:hover {
-  opacity: 100%;
-}
+
 
 .rodape {
   border-top: 1px solid antiquewhite;
@@ -155,7 +161,7 @@ header{
   font-size: bold;
   font-family: 'Port Lligat Slab', serif;
   font-weight: 30%;
-  font-size: 80px;
+  font-size: 450%;
   text-align: center;
   margin: 20px;
 }
