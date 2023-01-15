@@ -1,0 +1,133 @@
+body {
+    background: black;
+    color: white;
+}
+
+.logotipo {
+    height: 60px;
+    padding-right: 600px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: white solid 1px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background-color: black;    
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+header{
+    font-size: 20px;
+    border-bottom: 25px;
+    
+}
+
+.menu-itens {
+    font-family: 'Marhey', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(59, 58, 56);
+    text-decoration: none;
+    transition: 1ms all;
+    padding: 6px;
+    background: white;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.menu-itens:active {
+    border: yellow solid 1px;
+    background: rgba(255, 255, 0, 0.534);
+}
+
+/*____________________________________________________________________________*/
+
+
+
+#ctt-img{
+    height: 60px;
+    justify-content: center;
+    margin-left: 49%;
+    margin-right: 49%;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+#ctt-img:hover{
+    cursor: pointer;
+    border: 1px white solid;
+    border-radius: 100px;
+}
+
+#ctt-img:active{
+    background-color: rgb(245, 245, 245);
+}
+
+
+#ctt{
+    font-size: bold;
+    font-family: 'Port Lligat Slab', serif;
+    font-weight: 30%;
+    font-size: 450%;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+
+#ctt-rede{
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    text-indent: 40px;
+    text-shadow: 50px 50px 10px rgba(192, 189, 15, 0.603);
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4px;
+    border-bottom: white solid 1px;
+    border-width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+}
+
+
+#ctt-info-perfil{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    text-indent: 40px;
+    text-shadow: 50px 50px 10px rgba(192, 189, 15, 0.603);
+    font-family: 'Raleway';
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+
+/*_____________________________________________________________________________________*/
+
+.rodape {
+    border-top: 1px solid antiquewhite;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rodape-intro:before {
+    content: '© ';
+}
+
+.rodape-intro {
+    font-size: 15px;
+    padding: 10px;
+}
